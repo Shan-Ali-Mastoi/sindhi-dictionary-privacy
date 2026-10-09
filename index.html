@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Sindhi English Dictionary</title>
+  <meta name="description" content="Official Privacy Policy and Data Safety disclosures for the Sindhi English Dictionary Android App on Google Play Store.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1b5e20;
+      --primary-light: #2e7d32;
+      --primary-container: #e8f5e9;
+      --on-primary: #ffffff;
+      --surface: #ffffff;
+      --background: #f8faf9;
+      --text-main: #191c1a;
+      --text-muted: #49454f;
+      --border: #e0e0e0;
+      --card-bg: #ffffff;
+      --badge-bg: #dcfce7;
+      --badge-text: #166534;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #81c784;
+        --primary-light: #a5d6a7;
+        --primary-container: #1b3820;
+        --on-primary: #003912;
+        --surface: #1e2220;
+        --background: #121513;
+        --text-main: #e1e3e0;
+        --text-muted: #c4c8c4;
+        --border: #2c332e;
+        --card-bg: #1a1e1b;
+        --badge-bg: #1e3a24;
+        --badge-text: #86efac;
+        --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background-color: var(--background);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 28px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.82rem;
+      font-weight: 700;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .sindhi-title {
+      font-family: 'Noto Naskh Arabic', serif;
+      direction: rtl;
+      font-size: 1.4rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      margin-top: 16px;
+    }
+
+    .quick-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .quick-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .quick-card .icon {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+
+    .quick-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .quick-card p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .content-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 28px;
+      box-shadow: var(--shadow);
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 1.1em;
+      background: var(--primary);
+      border-radius: 4px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text-main);
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 14px;
+      color: var(--text-main);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: var(--primary-container);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+
+    .contact-box {
+      background: var(--background);
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 0 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-badge">
+        <span>🛡️ Official Data Safety & Privacy Policy</span>
+      </div>
+      <h1>Sindhi English Dictionary</h1>
+      <div class="sindhi-title">سنڌي ۽ انگريزي ڊڪشنري — پرائيويسي پاليسي</div>
+      <div class="meta">
+        <span><strong>Package:</strong> com.sindhidictionary.sindhi_dictionary</span>
+        <span><strong>Version:</strong> 1.0.0</span>
+        <span><strong>Effective Date:</strong> October 2026</span>
+      </div>
+    </header>
+
+    <div class="quick-summary">
+      <div class="quick-card">
+        <div class="icon">🔒</div>
+        <h3>100% Offline Lexicon</h3>
+        <p>All core dictionary entries (Sindhi, English), phonetics, and grammar operate completely offline on your device.</p>
+      </div>
+      <div class="quick-card">
+        <div class="icon">🚫</div>
+        <h3>No Ads & Zero Profiling</h3>
+        <p>No ads are shown, no Advertising ID is collected, and no personal profile or account is required.</p>
+      </div>
+      <div class="quick-card">
+        <div class="icon">🗑️</div>
+        <h3>Full User Control</h3>
+        <p>Your search history and favorites remain exclusively in local storage on your phone and can be cleared at any time.</p>
+      </div>
+    </div>
+
+    <main class="content-card">
+      <section>
+        <h2>1. Introduction</h2>
+        <p>
+          Welcome to the <strong>Sindhi English Dictionary</strong> ("we", "our", or "the App"). 
+          We respect your privacy and are committed to protecting any data associated with your use of our application.
+        </p>
+        <p>
+          This Privacy Policy explains what information may be accessed, how it is used, and the choices available to you. 
+          This policy is designed to comply with Google Play Developer Policies and Google Play Data Safety requirements.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Information Collection and Storage</h2>
+        <p>
+          Our application operates primarily as an <strong>offline-first educational utility</strong>:
+        </p>
+        <ul>
+          <li><strong>No Personal Accounts:</strong> We do not collect, request, or store names, email addresses, phone numbers, contacts, device locations, or biometric details.</li>
+          <li><strong>Local Search History & Bookmarks:</strong> Your word search history, favorites, and settings are stored locally on your device in an isolated SQLite database. This data never leaves your device and is never uploaded to any remote server.</li>
+          <li><strong>Zero Tracking & No Ad Tracking:</strong> The App does not contain third-party advertising SDKs, does not collect Google Advertising ID (AAID), and does not sell or share data with brokers.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Online Features & Service Disclosures</h2>
+        <p>While 100% of the core dictionary operates offline, the App provides two optional interactive network features:</p>
+        <ul>
+          <li><strong>AI Educational Chat Assistant:</strong> If you add your own Google Gemini API key in Settings and use the AI Bot to ask linguistic or educational questions, the text prompt you type is transmitted over an encrypted HTTPS connection to Google Gemini API servers to generate an immediate response. The app does not save or transmit your identity with these queries.</li>
+          <li><strong>Encyclopedic Lookup (Wikipedia):</strong> When you ask the AI Bot about a term or topic and you are online, the search term may be sent over secure HTTPS to the Wikipedia (Wikimedia) public API to fetch a short factual summary. No account or personal identity is sent.</li>
+        </ul>
+        <div class="highlight-box">
+          <strong>Data Safety Declaration:</strong> Text entered into the AI Bot (including terms looked up on Wikipedia) is ephemeral and transmitted exclusively for <em>App Functionality</em> over secure HTTPS.
+        </div>
+      </section>
+
+      <section>
+        <h2>4. Device Permissions & Purpose</h2>
+        <p>The App requests only standard Android permissions strictly justified by its features:</p>
+        <ul>
+          <li><strong><code>android.permission.INTERNET</code>:</strong> Required exclusively for optional online features (AI Chat Bot queries and encyclopedic lookups) and checking educational resources. The offline dictionary works completely without internet.</li>
+          <li><strong><code>android.permission.ACCESS_NETWORK_STATE</code>:</strong> Allows the app to detect whether network connectivity is available to prevent failed network calls when offline.</li>
+          <li><strong><code>android.permission.POST_NOTIFICATIONS</code>:</strong> Used only on Android 13+ if you choose to enable the daily "Word of the Day" notification feature. This permission is requested dynamically only upon user opt-in.</li>
+          <li><strong><code>android.permission.RECEIVE_BOOT_COMPLETED</code> & <code>android.permission.VIBRATE</code>:</strong> Allows the device to reschedule daily Word-of-the-day alarms after phone reboot.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Advertising & Analytics Policy</h2>
+        <p>
+          <strong>The Sindhi English Dictionary contains NO advertisements.</strong> 
+          There are no banner ads, interstitial ads, rewarded ads, or third-party ad networks (such as Google AdMob) integrated into the application. Consequently, the app does not access or track your Google Advertising ID.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Data Retention & User Deletion Rights</h2>
+        <p>
+          In accordance with Google Play's Data Deletion Policy, users maintain full control over all local data:
+        </p>
+        <ul>
+          <li><strong>Instant History Clearing:</strong> You can delete all search history at any time from inside the app by opening <em>Settings &gt; Data &gt; Clear Search History</em>.</li>
+          <li><strong>Complete Data Erasure:</strong> Because all databases and bookmarks are stored exclusively on your device, uninstalling the app permanently purges all local databases, history, and preferences from your device.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Age Guidelines & Target Audience</h2>
+        <p>
+          The Sindhi English Dictionary is an educational utility intended for general audiences aged 13 and older, including high school and university students, educators, and language learners. We do not knowingly collect personal information from individuals under 13.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Data Security</h2>
+        <p>
+          We utilize standard industry practices to ensure your data remains secure. Because dictionary searches and saved entries reside strictly in local SQLite sandboxes on your device, your data is shielded by Android's application sandboxing architecture.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Contact & Support</h2>
+        <p>
+          If you have any questions, feedback, or concerns regarding this Privacy Policy or data handling, please contact us:
+        </p>
+        <div class="contact-box">
+          <strong>Developer / Support:</strong> Sindhi English Dictionary Team<br>
+          <strong>Official Support Email:</strong> <a href="mailto:smartdictionarysupport@gmail.com">smartdictionarysupport@gmail.com</a><br>
+        </div>
+      </section>
+
+      <section>
+        <h2>10. Data Sources &amp; Credits</h2>
+        <p>
+          Dictionary data: <strong>Sindhi Open Lexicon</strong> by
+          <a href="https://sindhilanguage.org/">SindhiLanguage.org</a>, prepared by Amar Fayaz Buriro, licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Changes were made: entries were merged with other
+          sources, normalized, and extended with Roman Sindhi, grammar notes and example sentences.
+          English definitions use Princeton WordNet 3.0 and Webster&#39;s 1913 dictionary text. The complete list of sources and
+          licenses is available in the app under Settings &gt; Data Sources &amp; Credits.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 Sindhi English Dictionary. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
